@@ -47,6 +47,7 @@ class AssemblyParser:
         'mov', 'add', 'sub', 'mul', 'div', 'imul', 'idiv',
         'push', 'pop', 'call', 'ret', 'jmp', 'je', 'jne', 'jz', 'jnz',
         'jg', 'jge', 'jl', 'jle', 'ja', 'jae', 'jb', 'jbe',
+        'jno', 'jo', 'jc', 'jnc', 'js', 'jns', 'jp', 'jnp',
         'cmp', 'test', 'and', 'or', 'xor', 'not', 'neg',
         'inc', 'dec', 'lea', 'nop', 'int', 'syscall',
         'shl', 'shr', 'sal', 'sar', 'rol', 'ror',
